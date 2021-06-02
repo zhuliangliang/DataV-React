@@ -384,6 +384,7 @@ const ScrollBoard = forwardRef(({ onClick, config = {}, className, style, onMous
               key={`${row.toString()}-${row.scroll}`}
               style={{
 		lineHeight: `24.8px`,
+		padding: `10px 0`,
                 backgroundColor: `${getBackgroundColor(row.rowIndex)}`
               }}
             >
