@@ -152,7 +152,7 @@ function calcAligns(mergedConfig, header) {
 }
 
 const ScrollBoard = forwardRef(({ onClick, config = {}, className, style, onMouseOver }, ref) => {
-  console.log("zhuliangliang")
+  console.log("zhuliang")
   const { width, height, domRef } = useAutoResize(ref)
 
   const [state, setState] = useState({
