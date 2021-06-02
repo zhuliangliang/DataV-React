@@ -152,7 +152,6 @@ function calcAligns(mergedConfig, header) {
 }
 
 const ScrollBoard = forwardRef(({ onClick, config = {}, className, style, onMouseOver }, ref) => {
-  console.log("zhuliang")
   const { width, height, domRef } = useAutoResize(ref)
 
   const [state, setState] = useState({
@@ -384,8 +383,7 @@ const ScrollBoard = forwardRef(({ onClick, config = {}, className, style, onMous
               className='row-item'
               key={`${row.toString()}-${row.scroll}`}
               style={{
-                height: `${heights[ri]}px`,
-                lineHeight: `${heights[ri]}px`,
+                lineHeight: `24.8px`,
                 backgroundColor: `${getBackgroundColor(row.rowIndex)}`
               }}
             >
